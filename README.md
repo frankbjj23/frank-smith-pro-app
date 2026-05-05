@@ -1,6 +1,6 @@
-# Frank Smith Pro App
+# Frank Smith III Developer Resume & Portfolio
 
-A recruiter-facing developer portfolio and resume app built with React, TypeScript, and Vite.
+A career-focused developer resume and project portfolio site built with React, TypeScript, and Vite.
 
 ## Run Locally
 

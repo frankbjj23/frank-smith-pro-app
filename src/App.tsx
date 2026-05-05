@@ -266,7 +266,7 @@ function App() {
           <MapPin size={16} aria-hidden="true" />
           <span>{profile.location}</span>
           <BriefcaseBusiness size={16} aria-hidden="true" />
-          <span>{profile.name} portfolio app</span>
+          <span>{profile.name} developer resume and portfolio</span>
         </footer>
       </div>
     </main>
