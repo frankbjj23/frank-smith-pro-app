@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Fitness Trackr Pro preview</title>
+  <desc id="desc">Dashboard style project preview with workout routine cards and activity charts.</desc>
+  <rect width="1200" height="760" fill="#111827"/>
+  <rect x="58" y="54" width="1084" height="652" rx="28" fill="#f8fafc"/>
+  <rect x="58" y="54" width="1084" height="104" rx="28" fill="#0f766e"/>
+  <text x="104" y="118" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Fitness Trackr Pro</text>
+  <text x="880" y="116" fill="#d1fae5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Routines + Activities</text>
+  <rect x="104" y="205" width="294" height="410" rx="18" fill="#ffffff" stroke="#d7dde5"/>
+  <text x="132" y="260" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">My Routine</text>
+  <rect x="132" y="302" width="218" height="16" rx="8" fill="#14b8a6"/>
+  <rect x="132" y="342" width="170" height="16" rx="8" fill="#f59e0b"/>
+  <rect x="132" y="382" width="236" height="16" rx="8" fill="#3b82f6"/>
+  <rect x="132" y="450" width="210" height="56" rx="14" fill="#111827"/>
+  <text x="160" y="486" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Add Activity</text>
+  <rect x="448" y="205" width="312" height="410" rx="18" fill="#ffffff" stroke="#d7dde5"/>
+  <text x="476" y="260" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Progress</text>
+  <path d="M500 520 L500 420 L560 420 L560 520 Z" fill="#99f6e4"/>
+  <path d="M590 520 L590 342 L650 342 L650 520 Z" fill="#2dd4bf"/>
+  <path d="M680 520 L680 282 L740 282 L740 520 Z" fill="#0f766e"/>
+  <rect x="810" y="205" width="286" height="410" rx="18" fill="#ffffff" stroke="#d7dde5"/>
+  <text x="838" y="260" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Browse</text>
+  <circle cx="876" cy="344" r="28" fill="#fde68a"/>
+  <rect x="922" y="326" width="118" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="922" y="360" width="84" height="14" rx="7" fill="#e2e8f0"/>
+  <circle cx="876" cy="448" r="28" fill="#bfdbfe"/>
+  <rect x="922" y="430" width="132" height="16" rx="8" fill="#cbd5e1"/>
+  <rect x="922" y="464" width="92" height="14" rx="7" fill="#e2e8f0"/>
+</svg>
