@@ -19,8 +19,8 @@ Edit `src/data/profile.ts` to update:
 - Resume summary and experience bullets
 
 The main image is served from `public/assets/frank-smith-office.png`.
-The downloadable Word resume is served from
-`public/resume/Frank-Smith-III-software-resume-revised.docx`.
+The downloadable PDF resume is served from
+`public/resume/Frank_Smith_III_Software_Developer_Resume_Updated.pdf`.
 
 ## Featured Projects
 

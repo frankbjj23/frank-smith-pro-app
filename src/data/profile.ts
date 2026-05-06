@@ -27,7 +27,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/franksmithiii23",
   github: "https://github.com/frankbjj23",
   website: "https://franksmithlll.com",
-  resumeUrl: "/resume/Frank-Smith-III-software-resume-revised.docx",
+  resumeUrl: "/resume/Frank_Smith_III_Software_Developer_Resume_Updated.pdf",
   photoUrl: "/assets/frank-smith-office.png",
   resumeSummary:
     "Full stack web developer with hands on training from Fullstack Academy and practical experience building user focused applications in JavaScript, React, Node.js, Express, and PostgreSQL.",
