@@ -23,7 +23,6 @@ export const profile = {
   headline: "Full Stack Web Developer",
   location: "Edgewater, NJ",
   email: "frankbjj23@gmail.com",
-  phone: "551 245 3407",
   linkedin: "https://www.linkedin.com/in/franksmithiii23",
   github: "https://github.com/frankbjj23",
   website: "https://franksmithlll.com",

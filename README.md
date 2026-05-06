@@ -13,7 +13,7 @@ npm run dev
 
 Edit `src/data/profile.ts` to update:
 
-- Name, headline, email, phone, GitHub, LinkedIn, and website
+- Name, headline, email, GitHub, LinkedIn, and website
 - Project cards and GitHub links
 - Skills and strengths
 - Resume summary and experience bullets

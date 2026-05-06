@@ -8,7 +8,6 @@ import {
   Linkedin,
   Mail,
   MapPin,
-  Phone,
   Printer,
   Rocket,
   Sparkles,
@@ -227,10 +226,6 @@ function App() {
             <a className="button primary" href={`mailto:${profile.email}`}>
               <Mail size={18} aria-hidden="true" />
               {profile.email}
-            </a>
-            <a className="button secondary" href={`tel:${profile.phone.replace(/\s/g, "")}`}>
-              <Phone size={18} aria-hidden="true" />
-              {profile.phone}
             </a>
             <a
               className="button secondary"
