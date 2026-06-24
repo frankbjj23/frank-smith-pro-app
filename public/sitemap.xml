@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://frank-smith-developer-resume.netlify.app/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg</image:loc>
+      <image:title>Frank Smith III professional portrait</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/cutz-by-casper-booking-platform.jpg</image:loc>
+      <image:title>Cutz By Casper booking platform</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/book-buddy-react-catalog.jpg</image:loc>
+      <image:title>Book Buddy React catalog</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/sturgis-options-rental-guide.jpg</image:loc>
+      <image:title>Sturgis Options rental guide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/isaac-wright-jr-advocacy-project.jpg</image:loc>
+      <image:title>Isaac Wright Jr. advocacy website project in development</image:title>
+    </image:image>
+  </url>
+</urlset>

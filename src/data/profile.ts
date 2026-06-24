@@ -1,7 +1,10 @@
 export type Project = {
   name: string;
   type: string;
+  status: string;
   image: string;
+  imageWebp?: string;
+  imageAlt: string;
   summary: string;
   impact: string;
   stack: string[];
@@ -20,91 +23,91 @@ export type Experience = {
 
 export const profile = {
   name: "Frank Smith III",
-  headline: "Full Stack Web Developer",
-  location: "Edgewater, NJ",
+  headline: "Full-Stack Developer | Field Operations Specialist",
+  location: "Bergen County, New Jersey",
   email: "frankbjj23@gmail.com",
   linkedin: "https://www.linkedin.com/in/franksmithiii23",
   github: "https://github.com/frankbjj23",
   website: "https://franksmithlll.com",
-  resumeUrl: "/resume/Frank_Smith_III_Software_Developer_Resume_Updated.pdf",
-  photoUrl: "/assets/frank-smith-office.png",
+  projectsUrl: "https://franksmithlll.com/projects",
+  writingUrl: "https://franksmithlll.com/blog",
+  resumeUrl: "/resume/Frank_Smith_III_Developer_Resume.pdf",
+  photoUrl: "/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
+  photoWebp: "/assets/projects-optimized/frank-smith-iii-professional-portrait.webp",
   resumeSummary:
-    "Full stack web developer with hands on training from Fullstack Academy and practical experience building user focused applications in JavaScript, React, Node.js, Express, and PostgreSQL.",
+    "Fullstack Academy graduate and full-stack developer with verified project experience across responsive interfaces, APIs, authentication, relational data, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
   pitch:
-    "I build polished web experiences with responsive interfaces, practical full stack fundamentals, and the discipline that comes from leading real operations and client work.",
-  availability: "Open to junior developer, frontend, and full-stack opportunities",
+    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
+  availability:
+    "Open to junior software, full-stack, front-end, web, and technical operations roles",
   strengths: [
-    "Responsive UI development across desktop and mobile",
-    "REST API and authentication fundamentals",
-    "React component architecture and React Router workflows",
-    "PostgreSQL backed application planning",
-    "Debugging, documentation, and Git based collaboration",
+    "Responsive interfaces built for clear desktop and mobile workflows",
+    "REST APIs, authentication, and relational database fundamentals",
+    "JavaScript, TypeScript, React, Node.js, and Git-based delivery",
+    "Troubleshooting informed by software projects and real field operations",
+    "Safety, documentation, communication, and systems reliability",
   ],
   metrics: [
-    { label: "Featured Projects", value: "7" },
-    { label: "Bootcamp", value: "Fullstack Academy" },
-    { label: "Core Stack", value: "React + Node" },
+    { label: "Featured Projects", value: "5" },
+    { label: "Education", value: "Fullstack Academy" },
+    { label: "Professional Focus", value: "Software + Operations" },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
     "React",
-    "React Router",
+    "Next.js",
     "Node.js",
     "Express.js",
     "PostgreSQL",
+    "Supabase",
     "SQL",
     "HTML5",
     "CSS3",
+    "Tailwind CSS",
     "Vite",
     "Git",
     "GitHub",
     "REST APIs",
     "Authentication",
-    "Test Driven Development",
+    "Vitest",
+    "Supertest",
     "Responsive Design",
-    "DOM Manipulation",
-    "Data Structures",
-    "Algorithms",
-    "Figma",
-    "Framer",
+    "Technical Documentation",
+    "Troubleshooting",
+    "Systems Reliability",
   ],
 };
 
 export const projects: Project[] = [
   {
-    name: "Isaac Wright Jr. Advocacy and Attorney Website",
-    type: "Static Client Site",
-    image: "/assets/projects/isaac-wright-preview.png",
-    summary:
-      "Built a responsive public facing website for attorney and advocate Isaac Wright Jr. to showcase his work, advocacy, and media presence.",
-    impact:
-      "Demonstrates polished static site execution for a real public figure: clear storytelling, structured layout, mobile friendly viewing, and hand built frontend implementation.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    links: [
-      {
-        label: "Live Site",
-        href: "https://frankbjj23.github.io/isaac-wright-Jr/",
-      },
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/isaac-wright-Jr",
-      },
-    ],
-  },
-  {
     name: "Cutz By Casper",
-    type: "Barber Booking App",
-    image: "/assets/projects/cutz-by-casper-preview.png",
+    type: "Booking Platform",
+    status: "Deployed",
+    image: "/assets/projects-optimized/cutz-by-casper-booking-platform.jpg",
+    imageWebp: "/assets/projects-optimized/cutz-by-casper-booking-platform.webp",
+    imageAlt:
+      "Cutz By Casper booking interface with AI-assisted scheduling options",
     summary:
-      "Developing a booking focused web application to streamline customer scheduling and communication for a working barber.",
+      "I developed a mobile-first booking application for a single-barber studio, with scheduling, deposit checkout, messaging, and administrative workflows.",
     impact:
-      "Shows full stack product thinking with database backed workflows, user interaction features, and a service business use case.",
-    stack: ["TypeScript", "React", "Node.js", "Express.js", "PostgreSQL"],
+      "This is my strongest full-stack project because it connects a polished service-business interface to scheduling, database, payment, and communication systems.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Stripe",
+      "Twilio",
+    ],
     links: [
       {
-        label: "Live Site",
-        href: "https://frankbjj23.github.io/Cutz-By-Casper/",
+        label: "Live App",
+        href: "https://cutz-by-casper-umri.vercel.app",
+      },
+      {
+        label: "Case Study",
+        href: "https://franksmithlll.com/projects#cutz-by-casper",
       },
       {
         label: "GitHub",
@@ -113,18 +116,75 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Sturgis Options",
-    type: "Group Trip Planning App",
-    image: "/assets/projects/sturgis-options-preview.png",
+    name: "Jukebox Pro",
+    type: "Authenticated API",
+    status: "Coursework",
+    image: "/assets/projects-optimized/jukebox-pro-api-schema.svg",
+    imageAlt: "Jukebox Pro database schema for users, playlists, and tracks",
     summary:
-      "Built a trip planning tool to centralize housing options, links, and dates for group decision making.",
+      "I built an Express and PostgreSQL playlist API with account registration, login, password hashing, JSON Web Tokens, and protected user-owned routes.",
     impact:
-      "Highlights practical collaboration features including comments, voting, shared options, and backend enabled workflow planning.",
-    stack: ["JavaScript", "React", "Node.js", "Express.js", "PostgreSQL"],
+      "The project demonstrates backend route design, relational data, authorization checks, seed data, and API testing without presenting a consumer interface that does not exist.",
+    stack: [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "JWT",
+      "bcrypt",
+      "Vitest",
+      "Supertest",
+    ],
     links: [
       {
-        label: "Live Site",
-        href: "https://frankbjj23.github.io/Sturgis-Options/",
+        label: "Technical Notes",
+        href: "https://franksmithlll.com/jukebox-pro-api-authentication-frank-smith-iii",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/frankbjj23/jukebox-pro",
+      },
+    ],
+  },
+  {
+    name: "Book Buddy",
+    type: "React API Client",
+    status: "Coursework",
+    image: "/assets/projects-optimized/book-buddy-react-catalog.jpg",
+    imageWebp: "/assets/projects-optimized/book-buddy-react-catalog.webp",
+    imageAlt:
+      "Book Buddy React catalog with search and book reservation states",
+    summary:
+      "I built a React client for browsing a book catalog, viewing details, creating an account, signing in, reserving books, and managing returns.",
+    impact:
+      "Book Buddy shows component-based UI work, routing, external API integration, conditional account states, and practical user workflows.",
+    stack: ["JavaScript", "React", "React Router", "Vite", "REST API", "CSS"],
+    links: [
+      {
+        label: "Workflow Notes",
+        href: "https://franksmithlll.com/book-buddy-react-api-workflow-frank-smith-iii",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/frankbjj23/Book-Buddy",
+      },
+    ],
+  },
+  {
+    name: "Sturgis Options",
+    type: "Rental Comparison Prototype",
+    status: "Prototype",
+    image: "/assets/projects-optimized/sturgis-options-rental-guide.jpg",
+    imageWebp: "/assets/projects-optimized/sturgis-options-rental-guide.webp",
+    imageAlt: "Sturgis Options rental guide with filters and property cards",
+    summary:
+      "I built a single-page rental comparison guide with filterable property cards, image lightboxes, voting, and comments for group decision-making.",
+    impact:
+      "The project connects a custom JavaScript interface to a small Node, Express, and PostgreSQL API while documenting current deployment limitations.",
+    stack: ["JavaScript", "HTML", "CSS", "Node.js", "Express", "PostgreSQL"],
+    links: [
+      {
+        label: "Project Summary",
+        href: "https://franksmithlll.com/projects#sturgis-options",
       },
       {
         label: "GitHub",
@@ -133,74 +193,25 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Book Buddy",
-    type: "React API Client",
-    image: "/assets/projects/book-buddy-preview.png",
+    name: "Isaac Wright Jr. Advocacy Website",
+    type: "Advocacy Website",
+    status: "In Development",
+    image: "/assets/projects-optimized/isaac-wright-jr-advocacy-project.jpg",
+    imageWebp: "/assets/projects-optimized/isaac-wright-jr-advocacy-project.webp",
+    imageAlt: "Isaac Wright Jr. advocacy website prototype in development",
     summary:
-      "Built a client for a book catalog API where users can browse books, view details, register, log in, reserve books, and manage returns.",
+      "I am developing an advocacy website for Isaac Wright Jr. with his knowledge and approval, focused on clear organization of advocacy work, public initiatives, media, and resources.",
     impact:
-      "Worth featuring because it shows API integration, React routing, account flows, conditional UI, and real application state management.",
-    stack: ["JavaScript", "React", "Vite", "REST API", "CSS"],
-    links: [
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/Book-Buddy",
-      },
-    ],
-  },
-  {
-    name: "Fitness Trackr Pro",
-    type: "Fitness Routine App",
-    image: "/assets/projects/fitness-trackr-preview.svg",
-    summary:
-      "Built against a fitness API for browsing activities and routines, with account oriented workflows for creating and managing workout content.",
-    impact:
-      "Adds a stronger application example because it shows API driven UI, reusable React structure, routing, and authenticated user workflows.",
-    stack: ["JavaScript", "React", "Vite", "REST API", "CSS"],
-    links: [
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/fitness-tracker-block-30",
-      },
-    ],
-  },
-  {
-    name: "BestBudz",
-    type: "Local Business Website",
-    image: "/assets/projects/bestbudz-preview.png",
-    summary:
-      "Created a responsive static site for a local business concept with branded visuals, service presentation, and lightweight JavaScript interactions.",
-    impact:
-      "Useful on the portfolio because it shows client style presentation work, brand layout, responsive CSS, and static site polish.",
+      "My role includes content organization, user-experience planning, responsive front-end development, and maintaining an accurate public development status.",
     stack: ["HTML", "CSS", "JavaScript"],
     links: [
       {
-        label: "Live Site",
-        href: "https://frankbjj23.github.io/bestbudz/",
+        label: "Project Page",
+        href: "https://franksmithlll.com/isaac-wright-jr-advocacy-website-project",
       },
       {
         label: "GitHub",
-        href: "https://github.com/frankbjj23/bestbudz",
-      },
-    ],
-  },
-  {
-    name: "Mariah and Jasien Wedding Page",
-    type: "Event Website",
-    image: "/assets/projects/wedding-page-preview.png",
-    summary:
-      "Created a photo forward event page showcasing highlights and images in a clean, mobile friendly presentation.",
-    impact:
-      "Shows content organization, responsive layout work, visual flow, and static site polish for a real event audience.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    links: [
-      {
-        label: "Live Site",
-        href: "https://frankbjj23.github.io/Mariah-JasiensWedpage/",
-      },
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/Mariah-JasiensWedpage",
+        href: "https://github.com/frankbjj23/isaac-wright-Jr",
       },
     ],
   },
@@ -208,13 +219,23 @@ export const projects: Project[] = [
 
 export const experience: Experience[] = [
   {
-    role: "Software Developer",
-    company: "Portfolio Web Applications",
+    role: "Field Operations Specialist",
+    company: "Water Treatment Operations | Bergen County, New Jersey",
+    dates: "Current role",
+    bullets: [
+      "Support water-treatment field operations with attention to safety, monitoring, documentation, and dependable procedures.",
+      "Troubleshoot real-world operational issues, communicate observations clearly, and stay calm when systems require immediate attention.",
+      "Apply the same disciplined approach to software work: understand the system, document the problem, test the solution, and verify the result.",
+    ],
+  },
+  {
+    role: "Full-Stack Developer",
+    company: "Independent Project Development",
     dates: "2025 - Present",
     bullets: [
-      "Built public facing and application style projects with JavaScript, React, Node.js, Express.js, PostgreSQL, HTML, and CSS.",
-      "Created responsive interfaces for portfolio, service booking, event, legal advocacy, and group planning use cases.",
-      "Practiced debugging workflows across frontend structure, styling, browser behavior, API planning, and GitHub based project iteration.",
+      "Build responsive web projects using JavaScript, TypeScript, React, Next.js, Node.js, Express, PostgreSQL, and Supabase.",
+      "Develop application workflows involving APIs, authentication, relational data, booking, payments, notifications, and deployment where verified by each repository.",
+      "Document project status, technical decisions, setup requirements, and current limitations through portfolio case studies and repository READMEs.",
     ],
   },
   {
@@ -222,29 +243,26 @@ export const experience: Experience[] = [
     company: "Self Employed | New Jersey / New York",
     dates: "2019 - Present",
     bullets: [
-      "Designed structured programs using data driven progress tracking and goal analysis.",
-      "Managed scheduling, client communication, client tracking, and day to day operations independently.",
-      "Built long term trust through consistency, accountability, and clear communication.",
+      "Design structured programs using goal analysis, progress tracking, and clear communication.",
+      "Manage scheduling, client communication, digital tracking, and daily operations independently.",
     ],
   },
   {
     role: "Owner / Operator",
-    company: "Eagle Holdings Corp | New York, NY",
+    company: "Eagle Holdings Corp | New York, New York",
     dates: "2018 - 2020",
     bullets: [
-      "Founded and operated a financial services company serving small and mid sized businesses.",
-      "Designed and managed internal workflows, operational processes, budgeting, compliance, and vendor coordination.",
-      "Solved operational inefficiencies through structured problem solving and process improvement.",
+      "Managed business operations, workflow design, client onboarding, reporting, budgeting, and vendor coordination.",
+      "Applied structured problem-solving to operational processes and day-to-day decisions.",
     ],
   },
   {
     role: "Chief Operating Officer",
-    company: "Premier Capital | Brooklyn, NY",
+    company: "Premier Capital | Brooklyn, New York",
     dates: "2015 - 2018",
     bullets: [
-      "Directed day to day operations for a high volume financial services organization.",
-      "Managed and mentored teams while implementing performance tracking workflows.",
-      "Led internal systems and reporting processes that improved accountability, tracking, and decision making.",
+      "Directed daily operations and supported team accountability, communication, and performance tracking.",
+      "Managed internal workflows and reporting processes for a high-volume financial-services organization.",
     ],
   },
   {
@@ -252,7 +270,7 @@ export const experience: Experience[] = [
     company: "Fullstack Academy",
     dates: "Graduated March 2026",
     bullets: [
-      "Completed immersive software engineering training focused on frontend development, React, backend fundamentals, SQL databases, authentication, testing, data structures, algorithms, and practical application development.",
+      "Completed immersive software engineering training in JavaScript, React, backend fundamentals, SQL databases, authentication, testing, data structures, algorithms, and application development.",
     ],
   },
 ];

@@ -201,7 +201,7 @@ h1 {
   margin: 10px 0 22px;
   color: #0c1824;
   font-family: "Playfair Display", Georgia, serif;
-  font-size: clamp(4.5rem, 8vw, 8.8rem);
+  font-size: clamp(4rem, 7vw, 7.4rem);
   font-weight: 900;
   line-height: 0.88;
 }
@@ -291,6 +291,13 @@ h1 {
   object-fit: cover;
   object-position: 53% center;
   display: block;
+}
+
+.hero-visual picture,
+.project-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .preview-card {
@@ -434,6 +441,22 @@ h1 {
   margin-bottom: 18px;
 }
 
+.project-status {
+  border: 1px solid rgba(18, 119, 103, 0.24);
+  border-radius: 999px;
+  background: rgba(18, 119, 103, 0.08);
+  padding: 5px 9px;
+  color: var(--green);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.project-card:first-child .project-status {
+  border-color: rgba(247, 201, 72, 0.38);
+  background: rgba(247, 201, 72, 0.12);
+  color: #f7c948;
+}
+
 .project-card h3 {
   margin-bottom: 10px;
   color: var(--navy);
@@ -485,6 +508,12 @@ h1 {
   font-weight: 800;
 }
 
+.section-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
 .skills-layout {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
@@ -502,6 +531,60 @@ h1 {
   background: #ffffff;
   padding: 22px;
   box-shadow: 0 14px 34px rgba(17, 24, 39, 0.06);
+}
+
+.beyond-code {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+  gap: 30px;
+  align-items: center;
+  margin-top: 70px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 24px;
+  background: #101820;
+  color: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.beyond-code picture {
+  overflow: hidden;
+  aspect-ratio: 16 / 11;
+  border-radius: 6px;
+}
+
+.beyond-code img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.beyond-code span {
+  color: #f7c948;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.beyond-code h2 {
+  margin: 8px 0 14px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.05;
+}
+
+.beyond-code p {
+  color: #d6e0e8;
+  line-height: 1.7;
+}
+
+.inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #f7c948;
+  font-weight: 800;
 }
 
 .strength-list {
@@ -646,7 +729,8 @@ footer {
 
   .hero-section,
   .skills-layout,
-  .contact-band {
+  .contact-band,
+  .beyond-code {
     grid-template-columns: 1fr;
   }
 
@@ -678,7 +762,7 @@ footer {
   }
 
   h1 {
-    font-size: 4.15rem;
+    font-size: 3.5rem;
   }
 
   .metrics-band {

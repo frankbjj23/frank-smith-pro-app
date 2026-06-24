@@ -87,11 +87,19 @@ function App() {
             </div>
           </div>
 
-          <div className="hero-visual" aria-label={`${profile.name} at a desk`}>
-            <img src={profile.photoUrl} alt={`${profile.name} seated at a desk`} />
+          <div className="hero-visual" aria-label={`${profile.name} professional portrait`}>
+            <picture>
+              <source srcSet={profile.photoWebp} type="image/webp" />
+              <img
+                src={profile.photoUrl}
+                alt="Frank Smith III in a professional portrait at a desk"
+                width="1400"
+                height="933"
+              />
+            </picture>
             <div className="preview-card">
               <UserRound size={20} aria-hidden="true" />
-              <span>Full stack developer</span>
+              <span>Full-stack developer + field operations</span>
             </div>
           </div>
         </section>
@@ -108,18 +116,29 @@ function App() {
         <section className="section-block" id="projects">
           <div className="section-heading">
             <span>Selected Work</span>
-            <h2>Projects with real people and practical use cases</h2>
+            <h2>Projects built around practical workflows</h2>
           </div>
 
           <div className="project-grid">
             {projects.map((project) => (
               <article className="project-card" key={project.name}>
                 <div className="project-image">
-                  <img src={project.image} alt={`${project.name} preview`} />
+                  <picture>
+                    {project.imageWebp ? (
+                      <source srcSet={project.imageWebp} type="image/webp" />
+                    ) : null}
+                    <img
+                      src={project.image}
+                      alt={project.imageAlt}
+                      width="1400"
+                      height="875"
+                      loading="lazy"
+                    />
+                  </picture>
                 </div>
                 <div className="project-topline">
                   <span>{project.type}</span>
-                  <Rocket size={18} aria-hidden="true" />
+                  <span className="project-status">{project.status}</span>
                 </div>
                 <h3>{project.name}</h3>
                 <p>{project.summary}</p>
@@ -144,6 +163,18 @@ function App() {
                 </div>
               </article>
             ))}
+          </div>
+
+          <div className="section-action">
+            <a
+              className="button secondary"
+              href={profile.projectsUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Globe size={18} aria-hidden="true" />
+              View complete project portfolio
+            </a>
           </div>
         </section>
 
@@ -213,13 +244,49 @@ function App() {
           </div>
         </section>
 
+        <section className="beyond-code" aria-labelledby="beyond-code-title">
+          <picture>
+            <source
+              srcSet="/assets/frank-smith-iii-beyond-code.webp"
+              type="image/webp"
+            />
+            <img
+              src="/assets/frank-smith-iii-beyond-code.jpg"
+              alt="Frank Smith III carrying a weighted bag on a mountain obstacle course"
+              width="960"
+              height="663"
+              loading="lazy"
+            />
+          </picture>
+          <div>
+            <span>Beyond Code</span>
+            <h2 id="beyond-code-title">Discipline that carries into the work</h2>
+            <p>
+              Field operations, Brazilian jiu-jitsu, and obstacle racing have
+              reinforced preparation, steady problem-solving, accountability, and
+              the value of staying composed under pressure. My main portfolio
+              contains the fuller personal story; this resume keeps the focus on
+              how those habits support dependable technical work.
+            </p>
+            <a
+              className="inline-link"
+              href="https://franksmithlll.com/about-frank-smith-iii-new-jersey"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Read my professional background
+              <ArrowUpRight size={15} aria-hidden="true" />
+            </a>
+          </div>
+        </section>
+
         <section className="contact-band" id="contact">
           <div>
             <span>Contact</span>
             <h2>Let’s talk about the role</h2>
             <p>
-              Reach me directly, review the source code, or download the resume for a
-              closer look at my background.
+              Reach me directly, review my source code, open the complete portfolio,
+              or read the technical notes behind selected projects.
             </p>
           </div>
           <div className="contact-actions">
@@ -252,7 +319,16 @@ function App() {
               rel="noreferrer"
             >
               <Globe size={18} aria-hidden="true" />
-              Website
+              Main Portfolio
+            </a>
+            <a
+              className="button secondary"
+              href={profile.writingUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Globe size={18} aria-hidden="true" />
+              Technical Writing
             </a>
           </div>
         </section>
@@ -261,7 +337,7 @@ function App() {
           <MapPin size={16} aria-hidden="true" />
           <span>{profile.location}</span>
           <BriefcaseBusiness size={16} aria-hidden="true" />
-          <span>{profile.name} developer resume and portfolio</span>
+          <span>{profile.name} recruiter-focused developer resume</span>
         </footer>
       </div>
     </main>
