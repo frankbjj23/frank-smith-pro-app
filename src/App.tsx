@@ -52,6 +52,7 @@ function App() {
             </div>
             <h1>{profile.name}</h1>
             <p className="lead">{profile.pitch}</p>
+            <p className="identity-note">{profile.identityNote}</p>
 
             <div className="hero-actions" aria-label="Primary actions">
               <a className="button primary" href={`mailto:${profile.email}`}>

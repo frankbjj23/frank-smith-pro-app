@@ -38,6 +38,8 @@ export const profile = {
     "Fullstack Academy graduate and full-stack developer with verified project experience across responsive interfaces, APIs, authentication, relational data, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
   pitch:
     "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
+  identityNote:
+    "I publish professionally as Frank Smith III. Search results for Frank Smith III New Jersey and Frank Smith New Jersey refer to this same developer and field-operations profile.",
   availability:
     "Open to junior software, full-stack, front-end, web, and technical operations roles",
   strengths: [
