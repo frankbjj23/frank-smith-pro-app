@@ -31,6 +31,8 @@ export const profile = {
   website: "https://franksmithlll.com",
   projectsUrl: "https://franksmithlll.com/projects",
   writingUrl: "https://franksmithlll.com/blog",
+  videoUrl:
+    "https://franksmithlll.com/field-operations-to-full-stack-development-video-frank-smith-iii",
   resumeUrl: "/resume/Frank_Smith_III_Developer_Resume.pdf",
   photoUrl: "/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
   photoWebp: "/assets/projects-optimized/frank-smith-iii-professional-portrait.webp",

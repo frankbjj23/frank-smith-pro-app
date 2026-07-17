@@ -269,15 +269,24 @@ function App() {
               contains the fuller personal story; this resume keeps the focus on
               how those habits support dependable technical work.
             </p>
-            <a
-              className="inline-link"
-              href="https://franksmithlll.com/about-frank-smith-iii-new-jersey"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Read my professional background
-              <ArrowUpRight size={15} aria-hidden="true" />
-            </a>
+              <a
+                className="inline-link"
+                href="https://franksmithlll.com/about-frank-smith-iii-new-jersey"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Read my professional background
+                <ArrowUpRight size={15} aria-hidden="true" />
+              </a>
+              <a
+                className="inline-link"
+                href={profile.videoUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch my field operations to full-stack development video
+                <ArrowUpRight size={15} aria-hidden="true" />
+              </a>
           </div>
         </section>
 
