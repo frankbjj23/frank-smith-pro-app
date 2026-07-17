@@ -32,7 +32,7 @@ export const profile = {
   projectsUrl: "https://franksmithlll.com/projects",
   writingUrl: "https://franksmithlll.com/blog",
   videoUrl:
-    "https://franksmithlll.com/field-operations-to-full-stack-development-video-frank-smith-iii",
+    "https://franksmithlll.com/long-way-into-tech-frank-smith-iii-new-jersey",
   resumeUrl: "/resume/Frank_Smith_III_Developer_Resume.pdf",
   photoUrl: "/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
   photoWebp: "/assets/projects-optimized/frank-smith-iii-professional-portrait.webp",

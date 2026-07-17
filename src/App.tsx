@@ -284,7 +284,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Watch my field operations to full-stack development video
+                Watch my Long Way Into Tech video
                 <ArrowUpRight size={15} aria-hidden="true" />
               </a>
           </div>
