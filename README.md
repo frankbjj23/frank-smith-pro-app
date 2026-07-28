@@ -2,6 +2,12 @@
 
 A career-focused developer resume and project portfolio site built with React, TypeScript, and Vite.
 
+The featured work now includes Il Veliero Porticello, a paid client website
+created from photographs of the establishment's printed menu and waterfront
+venue. The delivered site includes a responsive digital menu, Google Maps and
+direct-review access, a downloadable QR code, GitHub source, and a custom
+domain.
+
 ## Run Locally
 
 ```bash
@@ -28,6 +34,8 @@ The downloadable PDF resume is served from
   `https://github.com/frankbjj23/isaac-wright-Jr`
 - Cutz By Casper:
   `https://github.com/frankbjj23/Cutz-By-Casper`
+- Il Veliero Porticello:
+  `https://github.com/frankbjj23/il-veliero-porticello`
 - Sturgis Options:
   `https://github.com/frankbjj23/Sturgis-Options`
 - Book Buddy:

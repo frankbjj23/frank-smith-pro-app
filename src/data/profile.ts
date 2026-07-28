@@ -37,9 +37,9 @@ export const profile = {
   photoUrl: "/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
   photoWebp: "/assets/projects-optimized/frank-smith-iii-professional-portrait.webp",
   resumeSummary:
-    "Fullstack Academy graduate and full-stack developer with verified project experience across responsive interfaces, APIs, authentication, relational data, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
+    "Fullstack Academy graduate and full-stack developer with paid client experience and verified project work across responsive interfaces, APIs, authentication, relational data, custom domains, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
   pitch:
-    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
+    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. My paid Il Veliero client project shows how I turn real-world source material into a delivered customer experience. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
   identityNote:
     "I publish professionally as Frank Smith III. Search results for Frank Smith III New Jersey and Frank Smith New Jersey refer to this same developer and field-operations profile.",
   availability:
@@ -52,7 +52,7 @@ export const profile = {
     "Safety, documentation, communication, and systems reliability",
   ],
   metrics: [
-    { label: "Featured Projects", value: "5" },
+    { label: "Featured Projects", value: "6" },
     { label: "Education", value: "Fullstack Academy" },
     { label: "Professional Focus", value: "Software + Operations" },
   ],
@@ -84,6 +84,41 @@ export const profile = {
 };
 
 export const projects: Project[] = [
+  {
+    name: "Il Veliero Porticello",
+    type: "Paid Client Website",
+    status: "Live",
+    image:
+      "/assets/projects-optimized/frank-smith-iii-il-veliero-paid-client-website-ai-cover-2026-07-28.png",
+    imageAlt:
+      "AI-generated likeness of Frank Smith III presenting the Il Veliero hospitality website",
+    summary:
+      "I was contracted to transform photographs of the establishment's printed menu and waterfront venue into a responsive customer-facing website and digital menu.",
+    impact:
+      "I extracted and verified menu content, recreated the nautical identity, and delivered Google Maps, a direct review path, a downloadable QR code, GitHub source, and a custom domain.",
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Responsive Design",
+      "GitHub",
+      "Custom DNS",
+    ],
+    links: [
+      {
+        label: "Live Site",
+        href: "https://ilvelieroporticello.com/",
+      },
+      {
+        label: "Case Study",
+        href: "https://franksmithlll.com/paid-client-website-from-menu-photos-il-veliero-frank-smith-iii",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/frankbjj23/il-veliero-porticello",
+      },
+    ],
+  },
   {
     name: "Cutz By Casper",
     type: "Booking Platform",
