@@ -37,9 +37,9 @@ export const profile = {
   photoUrl: "/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
   photoWebp: "/assets/projects-optimized/frank-smith-iii-professional-portrait.webp",
   resumeSummary:
-    "Fullstack Academy graduate and full-stack developer with paid client experience and verified project work across responsive interfaces, APIs, authentication, relational data, custom domains, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
+    "Fullstack Academy graduate and full-stack developer with paid client delivery, community-service web development, and verified project work across responsive interfaces, APIs, authentication, relational data, custom domains, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
   pitch:
-    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. My paid Il Veliero client project shows how I turn real-world source material into a delivered customer experience. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
+    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. Il Veliero demonstrates paid client delivery, while Greater Expectation shows how I apply the same discipline to community service for Pastor Troy and his congregation. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
   identityNote:
     "I publish professionally as Frank Smith III. Search results for Frank Smith III New Jersey and Frank Smith New Jersey refer to this same developer and field-operations profile.",
   availability:
@@ -48,6 +48,7 @@ export const profile = {
     "Responsive interfaces built for clear desktop and mobile workflows",
     "REST APIs, authentication, and relational database fundamentals",
     "JavaScript, TypeScript, React, Node.js, and Git-based delivery",
+    "Live website delivery for paid-client and community-service projects",
     "Troubleshooting informed by software projects and real field operations",
     "Safety, documentation, communication, and systems reliability",
   ],
@@ -301,6 +302,7 @@ export const experience: Experience[] = [
     dates: "2025 - Present",
     bullets: [
       "Build responsive web projects using JavaScript, TypeScript, React, Next.js, Node.js, Express, PostgreSQL, and Supabase.",
+      "Delivered the live Greater Expectation ministry website as community service for Pastor Troy, organizing visitor, message, prayer, and ministry content without inventing unconfirmed operational details.",
       "Develop application workflows involving APIs, authentication, relational data, booking, payments, notifications, and deployment where verified by each repository.",
       "Document project status, technical decisions, setup requirements, and current limitations through portfolio case studies and repository READMEs.",
     ],
