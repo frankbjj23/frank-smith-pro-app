@@ -30,6 +30,8 @@ The downloadable PDF resume is served from
 
 ## Featured Projects
 
+- Greater Expectation community service website:
+  `https://www.greaterexpectation.org/`
 - Isaac Wright Jr. Advocacy and Attorney Website:
   `https://github.com/frankbjj23/isaac-wright-Jr`
 - Cutz By Casper:

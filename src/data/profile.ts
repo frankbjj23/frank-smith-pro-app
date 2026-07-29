@@ -52,7 +52,7 @@ export const profile = {
     "Safety, documentation, communication, and systems reliability",
   ],
   metrics: [
-    { label: "Featured Projects", value: "6" },
+    { label: "Featured Projects", value: "7" },
     { label: "Education", value: "Fullstack Academy" },
     { label: "Professional Focus", value: "Software + Operations" },
   ],
@@ -84,6 +84,34 @@ export const profile = {
 };
 
 export const projects: Project[] = [
+  {
+    name: "Greater Expectation",
+    type: "Community Service Website",
+    status: "Live",
+    image:
+      "/assets/projects-optimized/greater-expectation-community-service-website.jpg",
+    imageAlt:
+      "Greater Expectation blue and silver ministry logo used on the community service website",
+    summary:
+      "I created a responsive ministry website as community service for Pastor Troy, a good friend and my pastor, to give the congregation a clear digital foundation.",
+    impact:
+      "I organized visitor-focused paths for ministry information, messages, visits, and prayer resources while keeping unconfirmed operational details clearly marked as coming soon.",
+    stack: ["Responsive Design", "Content Architecture", "Accessibility", "GitHub"],
+    links: [
+      {
+        label: "Live Site",
+        href: "https://www.greaterexpectation.org/",
+      },
+      {
+        label: "Project Story",
+        href: "https://franksmithlll.com/building-greater-expectation-faith-community-service-frank-smith-iii",
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/frankbjj23/pastor-troy-site",
+      },
+    ],
+  },
   {
     name: "Il Veliero Porticello",
     type: "Paid Client Website",
