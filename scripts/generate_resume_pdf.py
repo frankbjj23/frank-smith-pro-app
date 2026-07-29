@@ -8,6 +8,7 @@ from reportlab.lib.units import inch
 from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
+    HRFlowable,
     KeepTogether,
     PageBreak,
     PageTemplate,
@@ -206,19 +207,6 @@ story += [
 story += section("Selected Technical Projects")
 story += [
     project(
-        "Greater Expectation",
-        "Live Community Service Website",
-        "Next.js, React, TypeScript, CSS, responsive design",
-        "<link href='https://www.greaterexpectation.org/'>greaterexpectation.org</link> | "
-        "<link href='https://github.com/frankbjj23/pastor-troy-site'>GitHub</link> | "
-        "<link href='https://franksmithlll.com/building-greater-expectation-faith-community-service-frank-smith-iii'>Project story</link>",
-        [
-            "Created and deployed a faith-centered ministry website as community service for Pastor Troy, a good friend and my pastor.",
-            "Organized clear visitor paths for ministry information, messages, visits, and prayer resources while marking unconfirmed operational details as coming soon.",
-        ],
-    ),
-    Spacer(1, 3),
-    project(
         "Il Veliero Porticello",
         "Live Paid Client Website and Digital Menu",
         "Next.js, React, TypeScript, CSS, GitHub, custom DNS",
@@ -243,23 +231,37 @@ story += [
     ),
     Spacer(1, 3),
     project(
-        "Sturgis Options",
-        "Group Trip Planning Application",
-        "JavaScript, React, Node.js, Express.js, PostgreSQL",
-        "<link href='https://github.com/frankbjj23/Sturgis-Options'>GitHub repository</link>",
+        "Greater Expectation",
+        "Live Community Service Website",
+        "Next.js, React, TypeScript, CSS, responsive design",
+        "<link href='https://www.greaterexpectation.org/'>greaterexpectation.org</link> | "
+        "<link href='https://github.com/frankbjj23/pastor-troy-site'>GitHub</link> | "
+        "<link href='https://franksmithlll.com/building-greater-expectation-faith-community-service-frank-smith-iii'>Project story</link>",
         [
-            "Built a planning tool that centralizes housing choices, links, dates, comments, and voting for group decisions.",
+            "Created and deployed a faith-centered ministry website as community service for Pastor Troy, a good friend and my pastor.",
+            "Organized clear visitor paths for ministry information, messages, visits, and prayer resources while marking unconfirmed operational details as coming soon.",
         ],
     ),
     Spacer(1, 3),
     project(
-        "Isaac Wright Jr. Advocacy Website",
-        "In Development",
-        "HTML, CSS, JavaScript",
-        "<link href='https://franksmithlll.com/isaac-wright-jr-advocacy-website-project'>Project page</link> | "
-        "<link href='https://github.com/frankbjj23/isaac-wright-Jr'>GitHub</link>",
+        "Jukebox Pro",
+        "Authenticated API Coursework",
+        "Node.js, Express, PostgreSQL, JWT, bcrypt, Vitest, Supertest",
+        "<link href='https://github.com/frankbjj23/jukebox-pro'>GitHub</link> | "
+        "<link href='https://franksmithlll.com/jukebox-pro-api-authentication-frank-smith-iii'>Technical notes</link>",
         [
-            "Developing an advocacy website with Isaac Wright Jr.'s knowledge and approval, focused on clear content organization and accessible public presentation.",
+            "Built a playlist API with account registration, password hashing, token authentication, protected user-owned routes, relational data, and API tests.",
+        ],
+    ),
+    Spacer(1, 3),
+    project(
+        "Book Buddy",
+        "React API Client Coursework",
+        "JavaScript, React, React Router, Vite, REST API, CSS",
+        "<link href='https://github.com/frankbjj23/Book-Buddy'>GitHub</link> | "
+        "<link href='https://franksmithlll.com/book-buddy-react-api-workflow-frank-smith-iii'>Workflow notes</link>",
+        [
+            "Built a React client for catalog search, account access, book reservations, returns, routing, and conditional user states.",
         ],
     ),
 ]
@@ -323,7 +325,11 @@ story += [
     ),
 ]
 
-story += [Spacer(1, 8)]
+story += [
+    Spacer(1, 9),
+    HRFlowable(width="100%", thickness=0.5, color=RULE),
+    Spacer(1, 7),
+]
 story += section("Education")
 story += [
     p("Fullstack Academy | Software Engineering Bootcamp | Graduated March 2026", "Entry"),

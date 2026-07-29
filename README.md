@@ -2,11 +2,12 @@
 
 A career-focused developer resume and project portfolio site built with React, TypeScript, and Vite.
 
-The featured work now includes Il Veliero Porticello, a paid client website
-created from photographs of the establishment's printed menu and waterfront
-venue. The delivered site includes a responsive digital menu, Google Maps and
-direct-review access, a downloadable QR code, GitHub source, and a custom
-domain.
+The featured work leads with Il Veliero Porticello, a paid client restaurant
+and bar website created from photographs of the establishment's printed menu
+and waterfront venue. The recruiter-focused order then emphasizes the Cutz By
+Casper full-stack booking platform, the live Greater Expectation community
+service website, and technical coursework demonstrating APIs and React
+workflows.
 
 ## Run Locally
 
@@ -26,28 +27,24 @@ Edit `src/data/profile.ts` to update:
 
 The main image is served from `public/assets/frank-smith-office.png`.
 The downloadable PDF resume is served from
-`public/resume/Frank_Smith_III_Software_Developer_Resume_Updated.pdf`.
+`public/resume/Frank_Smith_III_Developer_Resume.pdf`.
 
 ## Featured Projects
 
-- Greater Expectation community service website:
-  `https://www.greaterexpectation.org/`
-- Isaac Wright Jr. Advocacy and Attorney Website:
-  `https://github.com/frankbjj23/isaac-wright-Jr`
-- Cutz By Casper:
-  `https://github.com/frankbjj23/Cutz-By-Casper`
 - Il Veliero Porticello:
   `https://github.com/frankbjj23/il-veliero-porticello`
-- Sturgis Options:
-  `https://github.com/frankbjj23/Sturgis-Options`
+- Cutz By Casper:
+  `https://github.com/frankbjj23/Cutz-By-Casper`
+- Greater Expectation community service website:
+  `https://www.greaterexpectation.org/`
+- Jukebox Pro:
+  `https://github.com/frankbjj23/jukebox-pro`
 - Book Buddy:
   `https://github.com/frankbjj23/Book-Buddy`
-- Fitness Trackr Pro:
-  `https://github.com/frankbjj23/fitness-tracker-block-30`
-- BestBudz:
-  `https://github.com/frankbjj23/bestbudz`
-- Mariah and Jasien Wedding Page:
-  `https://github.com/frankbjj23/Mariah-JasiensWedpage`
+- Sturgis Options:
+  `https://github.com/frankbjj23/Sturgis-Options`
+- Isaac Wright Jr. Advocacy Website - In Development:
+  `https://github.com/frankbjj23/isaac-wright-Jr`
 
 ## Resume Guidance
 
