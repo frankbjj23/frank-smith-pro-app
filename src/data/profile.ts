@@ -39,7 +39,7 @@ export const profile = {
   resumeSummary:
     "Fullstack Academy graduate and full-stack developer with paid client delivery, community-service web development, and verified project work across responsive interfaces, APIs, authentication, relational data, custom domains, and deployment. My current field-operations work in water treatment adds practical experience with safety, documentation, troubleshooting, communication, and dependable systems.",
   pitch:
-    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. Il Veliero demonstrates paid client delivery, while Greater Expectation shows how I apply the same discipline to community service for Pastor Troy and his congregation. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
+    "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. Il Veliero demonstrates paid client delivery, while Greater Expectation shows how I apply the same discipline to community service. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
   identityNote:
     "I publish professionally as Frank Smith III. Search results for Frank Smith III New Jersey and Frank Smith New Jersey refer to this same developer and field-operations profile.",
   availability:
@@ -53,7 +53,7 @@ export const profile = {
     "Safety, documentation, communication, and systems reliability",
   ],
   metrics: [
-    { label: "Featured Projects", value: "7" },
+    { label: "Featured Projects", value: "5" },
     { label: "Education", value: "Fullstack Academy" },
     { label: "Professional Focus", value: "Software + Operations" },
   ],
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     image:
       "/assets/projects-optimized/il-veliero-live-restaurant-bar-website.png",
     imageAlt:
-      "Live Il Veliero restaurant and bar website showing its Porticello waterfront hero and navigation",
+      "Live Il Veliero restaurant website with its waterfront hero and navigation",
     summary:
       "I was contracted to transform photographs of the establishment's printed menu and waterfront venue into a responsive customer-facing website and digital menu.",
     impact:
@@ -162,7 +162,7 @@ export const projects: Project[] = [
     image:
       "/assets/projects-optimized/greater-expectation-community-service-website.jpg",
     imageAlt:
-      "Greater Expectation blue and silver ministry logo used on the community service website",
+      "Greater Expectation ministry identity used on the community service website",
     summary:
       "I created a responsive ministry website as community service for Pastor Troy, a good friend and my pastor, to give the congregation a clear digital foundation.",
     impact:
@@ -237,52 +237,6 @@ export const projects: Project[] = [
       },
     ],
   },
-  {
-    name: "Sturgis Options",
-    type: "Rental Comparison Prototype",
-    status: "Prototype",
-    image: "/assets/projects-optimized/sturgis-options-rental-guide.jpg",
-    imageWebp: "/assets/projects-optimized/sturgis-options-rental-guide.webp",
-    imageAlt: "Sturgis Options rental guide with filters and property cards",
-    summary:
-      "I built a single-page rental comparison guide with filterable property cards, image lightboxes, voting, and comments for group decision-making.",
-    impact:
-      "The project connects a custom JavaScript interface to a small Node, Express, and PostgreSQL API while documenting current deployment limitations.",
-    stack: ["JavaScript", "HTML", "CSS", "Node.js", "Express", "PostgreSQL"],
-    links: [
-      {
-        label: "Project Summary",
-        href: "https://franksmithlll.com/projects#sturgis-options",
-      },
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/Sturgis-Options",
-      },
-    ],
-  },
-  {
-    name: "Isaac Wright Jr. Advocacy Website",
-    type: "Advocacy Website",
-    status: "In Development",
-    image: "/assets/projects-optimized/isaac-wright-jr-advocacy-project.jpg",
-    imageWebp: "/assets/projects-optimized/isaac-wright-jr-advocacy-project.webp",
-    imageAlt: "Isaac Wright Jr. advocacy website prototype in development",
-    summary:
-      "I am developing an advocacy website for Isaac Wright Jr. with his knowledge and approval, focused on clear organization of advocacy work, public initiatives, media, and resources.",
-    impact:
-      "My role includes content organization, user-experience planning, responsive front-end development, and maintaining an accurate public development status.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    links: [
-      {
-        label: "Project Page",
-        href: "https://franksmithlll.com/isaac-wright-jr-advocacy-website-project",
-      },
-      {
-        label: "GitHub",
-        href: "https://github.com/frankbjj23/isaac-wright-Jr",
-      },
-    ],
-  },
 ];
 
 export const experience: Experience[] = [
@@ -302,7 +256,7 @@ export const experience: Experience[] = [
     dates: "2025 - Present",
     bullets: [
       "Build responsive web projects using JavaScript, TypeScript, React, Next.js, Node.js, Express, PostgreSQL, and Supabase.",
-      "Delivered the live Greater Expectation ministry website as community service for Pastor Troy, organizing visitor, message, prayer, and ministry content without inventing unconfirmed operational details.",
+      "Delivered the live Il Veliero paid-client website and Greater Expectation community-service website with responsive interfaces, verified content, custom-domain publishing, and public project documentation.",
       "Develop application workflows involving APIs, authentication, relational data, booking, payments, notifications, and deployment where verified by each repository.",
       "Document project status, technical decisions, setup requirements, and current limitations through portfolio case studies and repository READMEs.",
     ],

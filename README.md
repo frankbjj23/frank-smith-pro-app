@@ -2,13 +2,6 @@
 
 A career-focused developer resume and project portfolio site built with React, TypeScript, and Vite.
 
-The featured work leads with Il Veliero Porticello, a paid client restaurant
-and bar website created from photographs of the establishment's printed menu
-and waterfront venue. The recruiter-focused order then emphasizes the Cutz By
-Casper full-stack booking platform, the live Greater Expectation community
-service website, and technical coursework demonstrating APIs and React
-workflows.
-
 ## Run Locally
 
 ```bash
@@ -25,26 +18,24 @@ Edit `src/data/profile.ts` to update:
 - Skills and strengths
 - Resume summary and experience bullets
 
-The main image is served from `public/assets/frank-smith-office.png`.
+The main image is served from
+`public/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg`.
 The downloadable PDF resume is served from
-`public/resume/Frank_Smith_III_Developer_Resume.pdf`.
+`public/resume/Frank_Smith_III_Developer_Resume.pdf` and can be regenerated
+with `python scripts/generate_resume_pdf.py`.
 
 ## Featured Projects
 
 - Il Veliero Porticello:
-  `https://github.com/frankbjj23/il-veliero-porticello`
+  `https://ilvelieroporticello.com/`
 - Cutz By Casper:
   `https://github.com/frankbjj23/Cutz-By-Casper`
-- Greater Expectation community service website:
+- Greater Expectation:
   `https://www.greaterexpectation.org/`
 - Jukebox Pro:
   `https://github.com/frankbjj23/jukebox-pro`
 - Book Buddy:
   `https://github.com/frankbjj23/Book-Buddy`
-- Sturgis Options:
-  `https://github.com/frankbjj23/Sturgis-Options`
-- Isaac Wright Jr. Advocacy Website - In Development:
-  `https://github.com/frankbjj23/isaac-wright-Jr`
 
 ## Resume Guidance
 
