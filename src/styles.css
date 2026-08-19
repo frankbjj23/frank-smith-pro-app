@@ -613,6 +613,32 @@ h1 {
   color: var(--green);
 }
 
+.credential-strip {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  margin-top: 16px;
+  border-left: 3px solid var(--green);
+  background: #f3f7fb;
+  padding: 14px 16px;
+  color: #2f3f4f;
+}
+
+.credential-strip svg {
+  color: var(--green);
+}
+
+.credential-strip strong,
+.credential-strip span {
+  display: block;
+}
+
+.credential-strip strong {
+  margin-bottom: 3px;
+  color: #16202b;
+}
+
 .resume-summary {
   justify-content: space-between;
   gap: 16px;
@@ -835,6 +861,7 @@ footer {
   .project-card,
   .skill-cloud,
   .strength-list,
+  .credential-strip,
   .resume-summary,
   .timeline {
     break-inside: avoid;

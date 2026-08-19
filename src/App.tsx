@@ -1,5 +1,6 @@
 import {
   ArrowUpRight,
+  BadgeCheck,
   BriefcaseBusiness,
   CheckCircle2,
   Download,
@@ -198,6 +199,16 @@ function App() {
                   <CheckCircle2 size={18} aria-hidden="true" />
                   <span>{strength}</span>
                 </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="credential-strip" aria-label="Professional credentials">
+            <BadgeCheck size={20} aria-hidden="true" />
+            <div>
+              <strong>Professional Credential</strong>
+              {profile.credentials.map((credential) => (
+                <span key={credential}>{credential}</span>
               ))}
             </div>
           </div>

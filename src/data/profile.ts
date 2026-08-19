@@ -82,6 +82,9 @@ export const profile = {
     "Troubleshooting",
     "Systems Reliability",
   ],
+  credentials: [
+    "Commercial Driver's License (CDL) with Passenger Endorsement",
+  ],
 };
 
 export const projects: Project[] = [

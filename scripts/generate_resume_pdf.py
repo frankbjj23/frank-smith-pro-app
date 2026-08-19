@@ -209,6 +209,7 @@ skills = [
     ["Data and services", "PostgreSQL, Supabase, REST APIs, authentication, Stripe Checkout, Twilio SMS"],
     ["Testing and tools", "Vitest, Supertest, Git, GitHub, VS Code, command line, Netlify"],
     ["Professional strengths", "Troubleshooting, technical documentation, responsive design, systems reliability"],
+    ["Professional credential", "Commercial Driver's License (CDL) with Passenger Endorsement"],
 ]
 skills_table = Table(
     [[Paragraph(f"<b>{label}</b>", styles["Small"]), Paragraph(value, styles["Small"])] for label, value in skills],
