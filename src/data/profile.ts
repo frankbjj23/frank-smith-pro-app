@@ -83,7 +83,7 @@ export const profile = {
     "Systems Reliability",
   ],
   credentials: [
-    "Commercial Driver's License (CDL) with Passenger Endorsement",
+    "Commercial Driver's License (CDL) Class A with Tanker and Passenger Endorsements",
   ],
 };
 
