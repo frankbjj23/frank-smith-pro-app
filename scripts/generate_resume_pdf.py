@@ -239,11 +239,11 @@ story.extend(
             "https://ilvelieroporticello.com/",
         ),
         project(
-            "Cutz By Casper",
-            "Deployed",
-            "Next.js, TypeScript, Tailwind CSS, Supabase, Stripe, Twilio",
-            "Mobile-first booking application connecting scheduling, deposit checkout, messaging, and administrative workflows for a single-barber studio.",
-            "https://github.com/frankbjj23/Cutz-By-Casper",
+            "Redeemed by Casper",
+            "Live barber portfolio",
+            "Next.js, React, TypeScript, Tailwind CSS, Booksy, Vercel",
+            "Mobile-first Redeemed Precision Grooming portfolio with clear service presentation and an established Booksy booking handoff.",
+            "https://redeemedbycasper.com/",
         ),
         project(
             "Greater Expectation",

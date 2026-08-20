@@ -124,33 +124,33 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Cutz By Casper",
-    type: "Booking Platform",
-    status: "Deployed",
-    image: "/assets/projects-optimized/cutz-by-casper-booking-platform.jpg",
-    imageWebp: "/assets/projects-optimized/cutz-by-casper-booking-platform.webp",
+    name: "Redeemed by Casper",
+    type: "Barber Portfolio & Booking Handoff",
+    status: "Live",
+    image: "/assets/projects-optimized/redeemed-by-casper-barber-portfolio.jpg",
+    imageWebp: "/assets/projects-optimized/redeemed-by-casper-barber-portfolio.webp",
     imageAlt:
-      "Cutz By Casper booking interface with AI-assisted scheduling options",
+      "Redeemed Precision Grooming barber holding clippers for the Redeemed by Casper website project",
     summary:
-      "I developed a mobile-first booking application for a single-barber studio, with scheduling, deposit checkout, messaging, and administrative workflows.",
+      "I built a mobile-first barber portfolio for Redeemed Precision Grooming with clear service presentation and a verified Booksy booking handoff.",
     impact:
-      "This is my strongest full-stack project because it connects a polished service-business interface to scheduling, database, payment, and communication systems.",
+      "I simplified the live architecture around the established booking source of truth while preserving a focused, responsive customer path.",
     stack: [
       "Next.js",
+      "React",
       "TypeScript",
       "Tailwind CSS",
-      "Supabase",
-      "Stripe",
-      "Twilio",
+      "Booksy",
+      "Vercel",
     ],
     links: [
       {
-        label: "Live App",
-        href: "https://cutz-by-casper-umri.vercel.app",
+        label: "Live Site",
+        href: "https://redeemedbycasper.com/",
       },
       {
         label: "Case Study",
-        href: "https://franksmithlll.com/projects#cutz-by-casper",
+        href: "https://franksmithlll.com/building-redeemed-by-casper-original-booking-prototype",
       },
       {
         label: "GitHub",

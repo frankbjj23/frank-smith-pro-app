@@ -28,8 +28,8 @@ with `python scripts/generate_resume_pdf.py`.
 
 - Il Veliero Porticello:
   `https://ilvelieroporticello.com/`
-- Cutz By Casper:
-  `https://github.com/frankbjj23/Cutz-By-Casper`
+- Redeemed by Casper:
+  `https://redeemedbycasper.com/`
 - Greater Expectation:
   `https://www.greaterexpectation.org/`
 - Jukebox Pro:

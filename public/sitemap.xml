@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://frank-smith-developer-resume.netlify.app/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -15,8 +15,8 @@
       <image:title>Il Veliero Porticello live restaurant website</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/cutz-by-casper-booking-platform.jpg</image:loc>
-      <image:title>Cutz By Casper booking platform</image:title>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/redeemed-by-casper-barber-portfolio.jpg</image:loc>
+      <image:title>Redeemed by Casper barber portfolio project</image:title>
     </image:image>
     <image:image>
       <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/greater-expectation-community-service-website.jpg</image:loc>
