@@ -94,7 +94,7 @@ function App() {
               <source srcSet={profile.photoWebp} type="image/webp" />
               <img
                 src={profile.photoUrl}
-                alt="Frank Smith III in a professional portrait at a desk"
+                alt="Frank Smith III professional portrait for his New Jersey developer resume"
                 width="1400"
                 height="933"
               />

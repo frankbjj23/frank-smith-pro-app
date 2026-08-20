@@ -3,12 +3,20 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://frank-smith-developer-resume.netlify.app/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg</image:loc>
-      <image:title>Frank Smith III professional portrait</image:title>
+      <image:title>Frank Smith III New Jersey developer resume portrait</image:title>
+      <image:caption>Professional portrait of Frank Smith III for his New Jersey developer resume.</image:caption>
+      <image:license>https://franksmithlll.com/image-license</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://frank-smith-developer-resume.netlify.app/assets/frank-smith-iii-beyond-code.webp</image:loc>
+      <image:title>Frank Smith III obstacle course training</image:title>
+      <image:caption>Frank Smith III carrying a weighted bag on a mountain obstacle course, illustrating discipline beyond software work.</image:caption>
+      <image:license>https://franksmithlll.com/image-license</image:license>
     </image:image>
     <image:image>
       <image:loc>https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/il-veliero-live-restaurant-bar-website.png</image:loc>

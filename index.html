@@ -28,6 +28,10 @@
       property="og:image"
       content="https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg"
     />
+    <meta
+      property="og:image:alt"
+      content="Frank Smith III professional portrait for his New Jersey developer resume"
+    />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
@@ -40,6 +44,10 @@
     <meta
       name="twitter:image"
       content="https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Frank Smith III professional portrait for his New Jersey developer resume"
     />
     <meta
       name="google-site-verification"
@@ -59,8 +67,20 @@
               "Frank Smith III New Jersey"
             ],
             "url": "https://franksmithlll.com/",
+            "image": {
+              "@id": "https://frank-smith-developer-resume.netlify.app/#portrait-image"
+            },
             "jobTitle": ["Full-Stack Developer", "Field Operations Specialist"],
             "description": "Fullstack Academy graduate, full-stack developer, and Field Operations Specialist working in water treatment in Bergen County, New Jersey.",
+            "homeLocation": {
+              "@type": "Place",
+              "name": "Bergen County, New Jersey",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "NJ",
+                "addressCountry": "US"
+              }
+            },
             "hasCredential": {
               "@type": "EducationalOccupationalCredential",
               "name": "Commercial Driver's License (CDL) Class A with Tanker and Passenger Endorsements",
@@ -82,12 +102,32 @@
             "@id": "https://frank-smith-developer-resume.netlify.app/#profile",
             "url": "https://frank-smith-developer-resume.netlify.app/",
             "name": "Frank Smith III Developer Resume",
+            "primaryImageOfPage": {
+              "@id": "https://frank-smith-developer-resume.netlify.app/#portrait-image"
+            },
             "mainEntity": {
               "@type": "Person",
               "@id": "https://franksmithlll.com/#frank-smith-iii"
             },
             "isPartOf": {
               "@id": "https://frank-smith-developer-resume.netlify.app/#website"
+            }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://frank-smith-developer-resume.netlify.app/#portrait-image",
+            "url": "https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
+            "contentUrl": "https://frank-smith-developer-resume.netlify.app/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg",
+            "width": 1400,
+            "height": 933,
+            "caption": "Professional portrait of Frank Smith III for his New Jersey developer resume.",
+            "license": "https://franksmithlll.com/image-license",
+            "acquireLicensePage": "https://franksmithlll.com/image-license",
+            "creator": {
+              "@id": "https://franksmithlll.com/#frank-smith-iii"
+            },
+            "copyrightHolder": {
+              "@id": "https://franksmithlll.com/#frank-smith-iii"
             }
           },
           {
@@ -157,7 +197,7 @@
           </p>
           <img
             src="/assets/projects-optimized/frank-smith-iii-professional-portrait.jpg"
-            alt="Frank Smith III in a professional portrait at a desk"
+            alt="Frank Smith III professional portrait for his New Jersey developer resume"
             width="1400"
             height="933"
           />
