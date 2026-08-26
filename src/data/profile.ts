@@ -41,7 +41,7 @@ export const profile = {
   pitch:
     "I build practical web applications with JavaScript, TypeScript, React, Node.js, and modern data tools. Il Veliero demonstrates paid client delivery, while Greater Expectation shows how I apply the same discipline to community service. My field-operations background strengthens how I troubleshoot, document work, communicate clearly, and think about reliability.",
   identityNote:
-    "I publish professionally as Frank Smith III. Search results for Frank Smith III New Jersey and Frank Smith New Jersey refer to this same developer and field-operations profile.",
+    "I am based in Bergen County, New Jersey, where I combine full-stack development with practical field-operations experience.",
   availability:
     "Open to junior software, full-stack, front-end, web, and technical operations roles",
   strengths: [

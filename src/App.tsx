@@ -56,6 +56,15 @@ function App() {
             <p className="identity-note">{profile.identityNote}</p>
 
             <div className="hero-actions" aria-label="Primary actions">
+              <a
+                className="button primary"
+                href={profile.website}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Globe size={18} aria-hidden="true" />
+                Portfolio
+              </a>
               <a className="button primary" href={`mailto:${profile.email}`}>
                 <Mail size={18} aria-hidden="true" />
                 Email
